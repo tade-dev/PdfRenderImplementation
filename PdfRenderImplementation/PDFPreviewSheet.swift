@@ -15,7 +15,6 @@ struct PDFPreviewSheet: View {
     var body: some View {
         NavigationView {
             PDFViewer(document: document)
-                .navigationTitle("Preview PDF")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarLeading) {
                         Button("Close") { dismiss() }
